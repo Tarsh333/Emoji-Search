@@ -11,17 +11,17 @@ const App = () => {
           url: `https://emoji-api.com/emojis?search=${input}&access_key=79ddd798d4dd43d09e86d4b1136af85839035e84`,
           cancelToken: new axios.CancelToken(c => cancel = c)
         }).then(res => {
-          console.log(res.data);
+          // console.log(res.data);
           setEmojis(res.data)
         }).catch(e => {
           if (axios.isCancel(e)) return
-          console.log(e);
+          // console.log(e);
         })
         return () => cancel()
       }, [input])
-    useEffect(()=>{
-        console.log(emojis);
-    },[emojis])
+    // useEffect(()=>{
+    //     console.log(emojis);
+    // },[emojis])
 
     return (
         <div className="App">
