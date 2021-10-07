@@ -1,5 +1,5 @@
 
-React Calculator
+React Emoji Search
 =========
 Hosted at [https://emoji-search-tarsh.netlify.app/](https://emoji-search-tarsh.netlify.app/)
 
