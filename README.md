@@ -1,7 +1,7 @@
 
 React Calculator
 =========
-Hosted at [https://react-calculator-tarsh.netlify.app/](https://react-calculator-tarsh.netlify.app/)
+Hosted at [https://emoji-search-tarsh.netlify.app/](https://emoji-search-tarsh.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
